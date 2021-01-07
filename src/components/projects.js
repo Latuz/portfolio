@@ -14,7 +14,7 @@ class Projects extends Component {
 					<Tab>Projects</Tab>
 				</Tabs>
 				<div className="projects-grid">
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+					<Card className="card-projects">
 						<CardTitle
 							style={{
 								color      : '#000000',
@@ -37,7 +37,7 @@ class Projects extends Component {
 							<IconButton name="share" />
 						</CardMenu>
 					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+					<Card className="card-projects">
 						<CardTitle
 							style={{
 								color      : '#000000',
@@ -60,7 +60,7 @@ class Projects extends Component {
 							<IconButton name="share" />
 						</CardMenu>
 					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+					<Card className="card-projects">
 						<CardTitle
 							style={{
 								color      : '#000000',
