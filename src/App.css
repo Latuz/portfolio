@@ -23,7 +23,7 @@
 	height: 100%;
 }
 .avatar-img {
-	height: 250px;
+	height: 200px;
 	padding-top: 5em;
 }
 .banner-text {
@@ -93,9 +93,24 @@
 }
 .contact-list i {
 	font-size: 66px;
-	padding-right: 5rem;
+	padding-right: 4rem;
 }
 .about-grid p {
 	font-size: 20px;
 	margin: 1px;
+}
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 15px;
+	}
+	section {
+		padding: 60px 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 480px) {
 }

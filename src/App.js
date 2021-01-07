@@ -16,7 +16,7 @@ function App() {
 					}
 					scroll
 				>
-					<Navigation>
+					<Navigation className="nav-bar">
 						<Link to="/aboutme">About Me</Link>
 						<Link to="/projects">Projects</Link>
 						<Link to="/contact">Contact</Link>
