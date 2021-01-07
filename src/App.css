@@ -144,13 +144,14 @@ html {
 		font-size: 43px;
 	}
 	.contact-grid img {
-		height: 120px;
-	}
-	.contact-grid img {
 		height: 125px;
 	}
 	.contact-grid h2 {
 		font-family: 'Anton', sans-serif;
 		font-size: 30px;
+	}
+	.contact-list i {
+		font-size: 25px;
+		margin-right: 80%;
 	}
 }
