@@ -8,18 +8,14 @@ class Contact extends Component {
 				<Grid className="contact-grid">
 					<Cell col={6}>
 						<h2>Felipe Stuardo</h2>
-						<img
-							src="https://cdn3.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-							alt="avatar"
-							style={{ height: '250px' }}
-						/>
-						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}> LOREM CHUKSUN INSTYLE BLAH</p>
+						<img src="https://cdn3.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="avatar" />
+						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}> Let's Build something.</p>
 					</Cell>
 					<Cell col={6}>
 						<h2>Get in touch with me</h2>
 						<hr />
 						<div className="contact-list">
-							<List>
+							<List className="list">
 								<ListItem>
 									<ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
 										<i

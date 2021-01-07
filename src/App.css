@@ -82,6 +82,9 @@
 .contact-grid h2 {
 	font-family: 'Anton', sans-serif;
 }
+.contact-grid img {
+	height: 250px;
+}
 .contact-grid p {
 	font-family: 'Oxygen', sans-serif;
 	font-weight: bold;
@@ -93,7 +96,7 @@
 }
 .contact-list i {
 	font-size: 66px;
-	padding-right: rem;
+	padding-right: 1rem;
 }
 .about-grid p {
 	font-size: 20px;
@@ -112,6 +115,13 @@
 	.social-links i {
 		font-size: 2em;
 		padding: 0px;
+	}
+	.contact-list i {
+		font-size: 30px;
+		padding-right: 1rem;
+	}
+	.contact-grid img {
+		height: 125px;
 	}
 }
 @media only screen and (max-width: 767px) {
