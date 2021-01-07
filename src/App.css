@@ -93,7 +93,7 @@
 }
 .contact-list i {
 	font-size: 66px;
-	padding-right: 4rem;
+	padding-right: rem;
 }
 .about-grid p {
 	font-size: 20px;
@@ -108,6 +108,10 @@
 	}
 	section {
 		padding: 60px 0;
+	}
+	.social-links i {
+		font-size: 2em;
+		padding: 0px;
 	}
 }
 @media only screen and (max-width: 767px) {
