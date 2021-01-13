@@ -22,16 +22,15 @@ class Projects extends Component {
 								background : 'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover'
 							}}
 						>
-							{'Javascript Shopping App'}
+							{'Ecommerce using the MERN stack'}
 						</CardTitle>
 						<CardText>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley
+							Ecommerce webpage with authentification and paypal payment using MongoDB, ExpressJS, React
+							and NodeJS
 						</CardText>
 						<CardActions border>
-							<Button colored>Live Demo</Button>
-							<Button colored>Live Demo</Button>
+							<Button>Live Demo</Button>
+							<Button>Live Demo</Button>
 						</CardActions>
 						<CardMenu style={{ color: '#00000' }}>
 							<IconButton name="share" />
