@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import projectone from '../images/fullimg.png';
 
 class Projects extends Component {
 	constructor(props) {
@@ -17,20 +18,22 @@ class Projects extends Component {
 					<Card className="card-projects">
 						<CardTitle
 							style={{
-								color      : '#000000',
-								height     : '180px',
-								background : 'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover'
+								color      : 'grey',
+								height     : '280px',
+								background : `url(${projectone}) center / cover`
 							}}
 						>
-							{'Ecommerce using the MERN stack'}
+							{'The MERN Stack'}
 						</CardTitle>
 						<CardText>
 							Ecommerce webpage with authentification and paypal payment using MongoDB, ExpressJS, React
 							and NodeJS
 						</CardText>
 						<CardActions border>
-							<Button>Live Demo</Button>
-							<Button>Live Demo</Button>
+							<a href="http://bestshopmern.herokuapp.com/" target="_blank">
+								<Button colored>Live Version</Button>
+							</a>
+							<Button colored>GitHub</Button>
 						</CardActions>
 						<CardMenu style={{ color: '#00000' }}>
 							<IconButton name="share" />
@@ -40,7 +43,7 @@ class Projects extends Component {
 						<CardTitle
 							style={{
 								color      : '#000000',
-								height     : '180px',
+								height     : '280px',
 								background : 'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover'
 							}}
 						>
@@ -48,8 +51,6 @@ class Projects extends Component {
 						</CardTitle>
 						<CardText>
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley
 						</CardText>
 						<CardActions border>
 							<Button colored>Live Demo</Button>
@@ -63,7 +64,7 @@ class Projects extends Component {
 						<CardTitle
 							style={{
 								color      : '#000000',
-								height     : '180px',
+								height     : '280px',
 								background : 'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover'
 							}}
 						>
@@ -71,8 +72,7 @@ class Projects extends Component {
 						</CardTitle>
 						<CardText>
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley
+							been the industry's standard dummy
 						</CardText>
 						<CardActions border>
 							<Button colored>Live Demo</Button>
@@ -97,3 +97,30 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+/* <Card className="card-projects">
+						<CardTitle
+							style={{
+								color      : 'grey',
+								height     : '200px',
+								background : `url(${projectone}) center / cover`
+							}}
+						>
+							{'The MERN Stack'}
+						</CardTitle>
+						<CardText>
+							Ecommerce webpage with authentification and paypal payment using MongoDB, ExpressJS, React
+							and NodeJS
+						</CardText>
+						<CardActions border>
+							<a href="http://bestshopmern.herokuapp.com/" target="_blank">
+								<Button colored>Live Demo</Button>
+							</a>
+							<Button colored>GitHub</Button>
+						</CardActions>
+						<CardMenu style={{ color: '#00000' }}>
+							<IconButton name="share" />
+						</CardMenu>
+					</Card>
+
+					*/

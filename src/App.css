@@ -67,9 +67,9 @@ html {
 	display: flex;
 }
 .card-projects {
-	box-shadow: 3px 8px 15px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 20px 20px 2px rgba(0, 0, 0, 0.2);
 	min-width: 450;
-	margin: auto;
+	margin: 7em;
 }
 .contact-body {
 	margin: auto;
