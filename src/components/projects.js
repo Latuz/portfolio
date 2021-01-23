@@ -30,7 +30,7 @@ class Projects extends Component {
 							and NodeJS
 						</CardText>
 						<CardActions border>
-							<a href="http://bestshopmern.herokuapp.com/" target="_blank">
+							<a href="http://bestshopmern.herokuapp.com/" target="_blank" rel="noreferrer">
 								<Button colored>Live Version</Button>
 							</a>
 							<Button colored>GitHub</Button>
