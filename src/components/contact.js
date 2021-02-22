@@ -13,8 +13,7 @@ class Contact extends Component {
               alt="avatar"
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              {" "}
-              Let's Build something.
+              {"Let's Build something."}
             </p>
           </Cell>
           <Cell col={6}>
@@ -22,7 +21,7 @@ class Contact extends Component {
             <hr />
             <div className="contact-list">
               <List className="list">
-                <ListItem>
+                <ListItem className="listard">
                   <ListItemContent
                     style={{
                       fontSize: "25px",
