@@ -21,16 +21,10 @@ class Contact extends Component {
             <hr />
             <div className="contact-list">
               <List className="list">
-                <ListItem className="listard">
-                  <ListItemContent
-                    style={{
-                      fontSize: "25px",
-                      fontFamily: "Anton",
-                      display: "flex",
-                    }}
-                  >
+                <ListItem>
+                  <ListItemContent className="list-content">
                     <i
-                      style={{ paddingLeft: "1em" }}
+                      style={{ paddingLeft: "2em" }}
                       className="fa fa-phone-square"
                       aria-hidden="true"
                     />
@@ -38,15 +32,9 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "25px",
-                      fontFamily: "Anton",
-                      display: "flex",
-                    }}
-                  >
+                  <ListItemContent className="list-content">
                     <i
-                      style={{ paddingLeft: "1em" }}
+                      style={{ paddingLeft: "2em" }}
                       className="fa fa-envelope-square"
                       aria-hidden="true"
                     />
@@ -54,15 +42,9 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "25px",
-                      fontFamily: "Anton",
-                      display: "flex",
-                    }}
-                  >
+                  <ListItemContent className="list-content">
                     <i
-                      style={{ paddingLeft: "1em" }}
+                      style={{ paddingLeft: "2em" }}
                       className="fa fa-linkedin-square"
                       aria-hidden="true"
                     />

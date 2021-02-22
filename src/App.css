@@ -99,6 +99,7 @@ html {
 .contact-grid p {
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
+  font-size: 22px;
 }
 .contact-grid hr {
   border-top: 5px dotted black;
@@ -106,13 +107,20 @@ html {
   margin: auto;
 }
 .contact-list i {
-  font-size: 66px;
+  font-size: 50px;
   padding-right: 1rem;
 }
 .about-grid p {
   font-size: 20px;
   margin: 1px;
 }
+
+.list-content {
+  font-size: 27px;
+  font-family: "Anton", sans-serif;
+  display: flex;
+}
+
 /* big tablet to 1200px */
 @media only screen and (max-width: 1200px) {
 }
@@ -144,9 +152,6 @@ html {
 }
 /* from 0 to 480 */
 @media only screen and (max-width: 480px) {
-  .list {
-    font-size: 20px;
-  }
   .landing-grid {
     font-size: 20px;
   }
@@ -181,7 +186,7 @@ html {
     font-size: 20px;
   }
   .contact-grid img {
-    height: 100px;
+    height: 150px;
   }
   .contact-grid p {
     font-family: "Oxygen", sans-serif;
@@ -198,5 +203,10 @@ html {
   .contact-list i {
     font-size: 30px;
     padding-right: 1rem;
+  }
+  .list-content {
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    display: flex;
   }
 }

@@ -40,12 +40,14 @@ class Projects extends Component {
               >
                 <CardTitle
                   style={{
-                    color: "grey",
-                    height: "280px",
+                    color: "black",
+                    height: "250px",
                     background: `url(${projectone}) center / cover`,
                   }}
                 >
-                  {"The MERN Stack"}
+                  <p className="project-titles" style={{ fontSize: "25px" }}>
+                    The MERN Stack
+                  </p>
                 </CardTitle>
                 <CardText>
                   Ecommerce webpage with authentification and paypal payment
@@ -80,12 +82,9 @@ class Projects extends Component {
                       "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover",
                   }}
                 >
-                  {"Javascript Shopping App"}
+                  {"Second React Project"}
                 </CardTitle>
-                <CardText>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has
-                </CardText>
+                <CardText>TEXT FOR THE NEXT REACT APP</CardText>
                 <CardActions border>
                   <Button colored>Live Demo</Button>
                   <Button colored>Live Demo</Button>
