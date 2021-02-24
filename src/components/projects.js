@@ -84,7 +84,7 @@ class Projects extends Component {
                 >
                   {"Second React Project"}
                 </CardTitle>
-                <CardText>TEXT FOR THE NEXT REACT APP</CardText>
+                <CardText>Building!</CardText>
                 <CardActions border>
                   <Button colored>Live Demo</Button>
                   <Button colored>Live Demo</Button>
@@ -110,11 +110,7 @@ class Projects extends Component {
                 >
                   {"Javascript Shopping App"}
                 </CardTitle>
-                <CardText>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy
-                </CardText>
+                <CardText>Almost done!</CardText>
                 <CardActions border>
                   <Button colored>Live Demo</Button>
                   <Button colored>Live Demo</Button>
