@@ -51,7 +51,7 @@ class Projects extends Component {
                 </CardTitle>
                 <CardText>
                   Ecommerce webpage with authentification and paypal payment
-                  using MongoDB, ExpressJS, React and NodeJS
+                  using MongoDB, ExpressJS, React and NodeJS. Hosted on Heroku
                 </CardText>
                 <CardActions border>
                   <a
@@ -82,7 +82,7 @@ class Projects extends Component {
                       "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover",
                   }}
                 >
-                  {"Second React Project"}
+                  {"Big project in progress"}
                 </CardTitle>
                 <CardText>Building!</CardText>
                 <CardActions border>
@@ -108,7 +108,7 @@ class Projects extends Component {
                       "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover",
                   }}
                 >
-                  {"Javascript Shopping App"}
+                  {"Making last adjustments for 4/02/2021"}
                 </CardTitle>
                 <CardText>Almost done!</CardText>
                 <CardActions border>
