@@ -13,6 +13,7 @@ import {
   CardText,
 } from "react-mdl";
 import projectone from "../images/fullimg.png";
+import projecttwo from "../images/Omnifood.png";
 
 class Projects extends Component {
   constructor(props) {
@@ -45,9 +46,10 @@ class Projects extends Component {
                     background: `url(${projectone}) center / cover`,
                   }}
                 >
-                  <p className="project-titles" style={{ fontSize: "25px" }}>
-                    The MERN Stack
-                  </p>
+                  <p
+                    className="project-titles"
+                    style={{ fontSize: "25px" }}
+                  ></p>
                 </CardTitle>
                 <CardText>
                   Ecommerce webpage with authentification and paypal payment
@@ -78,15 +80,22 @@ class Projects extends Component {
                   style={{
                     color: "#000000",
                     height: "280px",
-                    background:
-                      "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover",
+                    background: `url(${projecttwo}) center / cover`,
                   }}
                 >
-                  {"Big project in progress"}
+                  {""}
                 </CardTitle>
-                <CardText>Building!</CardText>
+                <CardText>
+                  Beatiful restaurant webpage using only HTML & CSS
+                </CardText>
                 <CardActions border>
-                  <Button colored>Live Demo</Button>
+                  <a
+                    href="https://html-css-first-site.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button colored>Live Version</Button>
+                  </a>
                   <Button colored>Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{ color: "#00000" }}>
@@ -108,7 +117,7 @@ class Projects extends Component {
                       "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover",
                   }}
                 >
-                  {"Making last adjustments for 4/02/2021"}
+                  {"Making last adjustments"}
                 </CardTitle>
                 <CardText>Almost done!</CardText>
                 <CardActions border>
