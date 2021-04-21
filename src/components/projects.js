@@ -52,8 +52,8 @@ class Projects extends Component {
                   ></p>
                 </CardTitle>
                 <CardText>
-                  Ecommerce webpage with authentification and paypal payment
-                  using MongoDB, ExpressJS, React and NodeJS. Hosted on Heroku
+                  Ecommerce webpage with paypal payment using MongoDB,
+                  ExpressJS, React and NodeJS. Hosted on Heroku
                 </CardText>
                 <CardActions border>
                   <a
